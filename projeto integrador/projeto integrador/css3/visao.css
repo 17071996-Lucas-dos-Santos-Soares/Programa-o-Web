@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    background-image: url(../imagens/fundo-visao.png);
+    background-position: left;
+    background-size: cover;
+}
+header {
+    width: 100%;
+    left: 0;
+    right: 0;
+    position: fixed;
+    margin-top: -300px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    background-color:  #5fa6e4;
+    text-align: center;
+}
+.logo {
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+}
+nav {
+    margin-top: -100px;
+}
+a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 1px 1px 1px #ffffff;
+    transition: 0.4s;
+}
+a:hover {
+    background-color: #0B508C;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.paragrafo {
+    width: 100%;
+    margin-top: 300px;
+    height: 700px;
+}
+.paragrafo h1 {
+    text-align: center;
+    text-shadow: 1px 1px 1px #000000;
+    color: #ffffff;
+    font-size: 37px;
+    font-family: "Bebas Neue", cursive;
+}
+hr {
+    margin-top: 10px;
+    width: 7%;
+    border:solid 1px #0543b6;
+    margin: 0 auto;
+}
+.paragrafo p {
+    text-shadow: 1px 1px 1px black;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+footer {
+    width: 100%;
+    font-size: 15pt;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #000;
+}
