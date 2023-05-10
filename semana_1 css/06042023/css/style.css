@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body {
+    background-color: #0adbca;
+}
+header {
+    background-color: #000;
+    width: 100%;
+    position:relative;
+}
+figure {
+    padding-top: 50px;
+    margin: 0;
+    padding-bottom: 50px;
+    text-align: center;
+}
+ h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18pt;
+    font-family: 'Dancing Script';
+    font-size: 20pt;
+    font-weight: 600;
+    color:#fa6b33;
+}
+#nw {
+    width: 600px;
+    margin-top: 40px;
+    border:solid 2px #fa337f;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #00000080;
+}
+figcaption {
+    margin-top: 20px;
+    text-align:center;
+    color: white;
+    font-size: 18pt;
+    font-family: 'Dancing Script';
+    font-weight: 700;
+}

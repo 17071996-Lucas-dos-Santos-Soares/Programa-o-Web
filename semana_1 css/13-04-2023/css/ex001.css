@@ -1,0 +1,35 @@
+#dv1 {
+    background-color: blueviolet;
+    align-items: center;
+    border: solid 1px;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    float: left;
+    margin-top: 10px;
+}
+#dv2 {
+    background-color: slategray;
+    margin-top: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: solid 1px;
+    height: 50px;
+    width: 50px;
+    float:left;
+    align-items: center;
+}
+#dv3 {
+    background-color: orangered;
+    border-radius: 10px;
+    border: solid 1px;
+    height: 50px;
+    width: 50px;
+    float:right;
+    margin-top: 10px;
+    align-items: center;
+}
+p {
+   padding-top: 50px;
+}

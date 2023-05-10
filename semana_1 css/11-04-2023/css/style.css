@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../img/01.beachshowcase.jpg);
+    background-repeat: no-repeat;
+    background-position: left,center;
+    background-size:cover;
+    height: 100vh;
+}
+header {
+    width: 100%;
+    position: relative;
+    background-color: black;
+}
+h1 {
+    margin-top: 100px;
+    color: #BF5B04;
+    font-size: 37pt;
+    font-family: "Merryweather", serif;
+    font-weight: 700;
+    text-align: center;
+}
+hr {
+    width: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid #fc7013;
+}
+p {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20pt;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+button {
+    font-family: 'Lobster Two', cursive;
+    box-shadow: 2px 2px 2px #ff861c;
+    font-size: 20pt;
+    background-color: transparent;
+    border:solid 2px #000000;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    transition: all;
+}
+button:hover{
+    background-color: #00000080;
+    color: white;
+    transition: all;
+}
+a {
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    transition:all;
+}
+a:hover {
+    transition: all;
+    color: #fff;
+}
+.rodape {
+    background-color: #BF4F26;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+footer p {
+    color: white;
+    font-size: 16pt;
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+body {
+    background-image: url(/img/pessoa\ trabalhando.jpg);
+    background-position:top,center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 40px;
+    font: size 37px;
+    color: #fff;
+    font-family: "Dancing Script",cursive;
+    text-align: center;
+    
+}
+p {
+    color:#ffffff;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    padding-left:40px;
+}
+.rodape {
+    bottom: 0;
+    left: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: #000;
+}
