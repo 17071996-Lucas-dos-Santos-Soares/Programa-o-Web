@@ -1,0 +1,30 @@
+body {
+
+}
+.logo {
+background-color: #f1f1f1f1;
+text-align: center;
+}
+.logo img {
+width: 200px;
+height: 200px;
+border-radius: 30px;
+}
+.logo:hover {
+    animation: aula 1s;
+    transition: 0.2s;
+}
+@keyframes aula {
+    0% {
+        transform: translateX(0px);
+    }
+    40% {
+        transform:translateX(30px);
+    }
+    70% {
+        transform: translateX(-30px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}

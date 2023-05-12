@@ -1,0 +1,47 @@
+@charset "UTF-8";
+body {
+    background-image: url(../img/01.beachshowcase.jpg);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+@media (max-widht:500px) {
+   
+}
+h1 {
+    color: #000000;
+}
+
+h2{
+    color: #ffffff;
+}
+@media (min-width:500px) {
+    h1 {
+        color:#24b7b7;
+        text-align: center;
+    }
+    h2 {
+        color: #ff4242;
+        font-size: 18pt;
+        font-weight: 700;
+    }
+}
+@media (max-width:700px) {
+    h2 {
+        color:#ffa500;
+        text-align: center;
+        font-family:"Monteserrat", sans-serif;
+}
+body {
+    background-image: url(../img/cidade.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+p {
+    font-size:1.2em;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+}

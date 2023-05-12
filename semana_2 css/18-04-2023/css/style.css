@@ -1,0 +1,9 @@
+a:link {
+    color: green;
+}
+a:after {
+    color: red;
+}
+a:active {
+    color: grey;
+}
